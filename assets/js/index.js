@@ -53,7 +53,7 @@ function renderDashboard() {
 function renderCreateEventCard() {
   return `
     <div class="event-card">
-      <img src="/attendeeconnect/organiser-app/assets/images/createevent.png">
+      <img src="/assets/images/createevent.png">
       <div class="card-content">
         <span>Create Event</span>
         <button onclick="openCreateEvent()">Create Event</button>
@@ -66,7 +66,7 @@ function renderLiveCard(liveEvents) {
   if (!liveEvents.length) return "";
   return `
     <div class="event-card">
-      <img src="/attendeeconnect/organiser-app/assets/images/liveevent.png">
+      <img src="/assets/images/liveevent.png">
       <div class="card-content">
         <span>Live Event</span>
         <button onclick="openLive()">Manage</button>
@@ -78,7 +78,7 @@ function renderLiveCard(liveEvents) {
 function renderPastEventCard() {
   return `
     <div class="event-card">
-      <img src="/attendeeconnect/organiser-app/assets/images/pastevent.png">
+      <img src="/assets/images/pastevent.png">
       <div class="card-content">
         <span>View Past Event</span>
         <button>View</button>
@@ -90,7 +90,7 @@ function renderPastEventCard() {
 function renderDraftsCard(drafts) {
   return `
     <div class="event-card">
-      <img src="/attendeeconnect/organiser-app/assets/images/draftevent.png">
+      <img src="/assets/images/draftevent.png">
       <div class="card-content">
         <span>Draft Events (${drafts.length})</span>
         <button onclick="openDraftsModal()">View Drafts</button>
@@ -103,11 +103,11 @@ function renderDraftsCard(drafts) {
    NAVIGATION
 ================================ */
 function openCreateEvent() {
-  window.location.href = "/attendeeconnect/organiser-app/dashboard/createevent.html";
+  window.location.href = "/organiser/dashboard/createevent.html";
 }
 
 function openLive() {
-  window.location.href = "/attendeeconnect/organiser-app/dashboard/liveevent.html";
+  window.location.href = "/organiser/dashboard/liveevent.html";
 }
 
 /* ===============================
@@ -185,7 +185,7 @@ function openDraftsModal() {
 
 function continueDraft(id) {
   localStorage.setItem("currentEventId", id);
-  window.location.href = "/attendeeconnect/organiser-app/dashboard/createevent.html";
+  window.location.href = "/organiser/dashboard/createevent.html";
 }
 
 function deleteDraft(id) {
