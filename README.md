@@ -1,2 +1,0 @@
-# attendeeconnect
-folder_for_orgainser+landing_page
