@@ -97,7 +97,7 @@ function saveEvent(status) {
   }
 
   saveEvents(events);
-  window.location.href = "/organiser/dashboard/index.html";
+  window.location.href = "dashboard.html";
 }
 
 /* ===============================

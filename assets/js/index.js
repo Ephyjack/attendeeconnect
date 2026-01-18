@@ -103,11 +103,11 @@ function renderDraftsCard(drafts) {
    NAVIGATION
 ================================ */
 function openCreateEvent() {
-  window.location.href = "/organiser/dashboard/createevent.html";
+  window.location.href = "createevent.html";
 }
 
 function openLive() {
-  window.location.href = "/organiser/dashboard/liveevent.html";
+  window.location.href = "liveevent.html";
 }
 
 /* ===============================
@@ -185,7 +185,7 @@ function openDraftsModal() {
 
 function continueDraft(id) {
   localStorage.setItem("currentEventId", id);
-  window.location.href = "/organiser/dashboard/createevent.html";
+  window.location.href = "createevent.html";
 }
 
 function deleteDraft(id) {
