@@ -24,6 +24,6 @@ function togglePassword() {
 
 document.getElementById("submitBtn").addEventListener("click", e => {
   e.preventDefault();
-  window.location.href = "/attendeeconnect/organiser-app/auth/profilecreation.html";
+  window.location.href = "/organiser/auth/profilecreation.html";
 });
 
