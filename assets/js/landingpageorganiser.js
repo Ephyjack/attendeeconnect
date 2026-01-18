@@ -26,7 +26,7 @@ nextBtn.addEventListener('click', () => {
     current++;
     updateSlide();
   } else {
-    window.location.href = '/organiser-app/auth/signup&login.html';
+    window.location.href = '/auth/signup&login.html';
   }
 });
 
