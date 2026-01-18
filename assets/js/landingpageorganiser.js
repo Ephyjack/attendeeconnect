@@ -26,7 +26,7 @@ nextBtn.addEventListener('click', () => {
     current++;
     updateSlide();
   } else {
-    window.location.href = '/auth/signup&login.html';
+    window.location.href = '/organiser/auth/signup&login.html';
   }
 });
 
@@ -38,7 +38,7 @@ backBtn.addEventListener('click', () => {
 });
 
 skipBtn.addEventListener('click', () => {
-  window.location.href = '/auth/signup&login.html';
+  window.location.href = '/organiser/auth/signup&login.html';
 });
 
 // Initialize
