@@ -97,7 +97,7 @@ function saveEvent(status) {
   }
 
   saveEvents(events);
-  window.location.href = "/attendeeconnect/organiser-app/dashboard/index.html";
+  window.location.href = "/organiser/dashboard/index.html";
 }
 
 /* ===============================
